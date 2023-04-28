@@ -1,3 +1,5 @@
+//Version 1.0 ->  @author DevMPoveaCL = Primer Programa, imprime un sout
+
 package PrimerPrograma;
 
 //Ejemplo de una clase que imprime un mensaje por consola.
