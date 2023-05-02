@@ -1,4 +1,4 @@
-package POO.Clase;
+package POO.sOOper.Clase;
 
 //Clase caja hereda todas las características de Contenedor y las extiende.
 public class Caja extends Contenedor {

@@ -1,16 +1,16 @@
-package POO.Clase;
+package POO.sOOper.Clase;
 
-import POO.Interfaz.IProducto;
+import POO.sOOper.Interfaz.IProducto;
 
-public class Alimentacion extends Producto {
+public class Mascota extends Producto {
 
-    public Alimentacion(String referencia, int peso, int volumen) {
+    public Mascota(String referencia, int peso, int volumen) {
         super(referencia, peso, volumen);
     }
 
     @Override
     public String getCategoria() {
-        return "Alimentación";
+        return "Mascotas";
     }
 
     @Override

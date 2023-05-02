@@ -1,9 +1,9 @@
-package POO.Clase;
+package POO.sOOper.Clase;
 
 import java.util.Set;
 
-import POO.Interfaz.IContenedor;
-import POO.Interfaz.IProducto;
+import POO.sOOper.Interfaz.IContenedor;
+import POO.sOOper.Interfaz.IProducto;
 
 public abstract class Contenedor implements IContenedor {
 

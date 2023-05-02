@@ -1,4 +1,4 @@
-package POO.Interfaz;
+package POO.sOOper.Interfaz;
 
 import java.util.Set;
 

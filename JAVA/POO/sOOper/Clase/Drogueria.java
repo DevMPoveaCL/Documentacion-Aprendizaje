@@ -1,16 +1,16 @@
-package POO.Clase;
+package POO.sOOper.Clase;
 
-import POO.Interfaz.IProducto;
+import POO.sOOper.Interfaz.IProducto;
 
-public class Mascota extends Producto{
+public class Drogueria extends Producto {
 
-    public Mascota(String referencia, int peso, int volumen) {
+    public Drogueria(String referencia, int peso, int volumen) {
         super(referencia, peso, volumen);
     }
 
     @Override
     public String getCategoria() {
-        return "Mascotas";
+        return "Droguería";
     }
 
     @Override
@@ -18,5 +18,5 @@ public class Mascota extends Producto{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'esCompatible'");
     }
-    
+
 }

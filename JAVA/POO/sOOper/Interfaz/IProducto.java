@@ -1,4 +1,4 @@
-package POO.Interfaz;
+package POO.sOOper.Interfaz;
 
 public interface IProducto {
     String getReferencia();

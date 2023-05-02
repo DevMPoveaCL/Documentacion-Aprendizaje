@@ -1,7 +1,7 @@
-package POO.Clase;
+package POO.sOOper.Clase;
 
-import POO.Interfaz.IContenedor;
-import POO.Interfaz.IProducto;
+import POO.sOOper.Interfaz.IContenedor;
+import POO.sOOper.Interfaz.IProducto;
 
 public abstract class Producto implements IProducto {
 
