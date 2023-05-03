@@ -1,4 +1,4 @@
-//Version 1.0 ->  @author DevMPoveaCL = Calcula un n° factorial usando while y una constante.
+//Version 1.0 ->  @author DevMPoveaCL = Calcula un número factorial usando while y una constante.
 
 package Bucles;
 
