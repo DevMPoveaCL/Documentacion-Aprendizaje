@@ -1,3 +1,5 @@
+//Version 1.0 ->  @author DevMPoveaCL = Ayuda a Gohan vs Cell con un ciclo DoWhile
+
 package Bucles;
 
 import java.util.Scanner;
@@ -6,18 +8,17 @@ public class DoWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int ki = 8500;
-        int i = 0;
 
         System.out.println("\n¡Gohan está tratando de vencer a Cell! Ayúdalo a aumentar su Ki.");
 
         do {
-            i = 0;
+            // Almacena la respuesta del usuario
             String respuestaUsuario;
             do {
-                i++;
                 System.out.println("su Ki actual es de: " + ki + "\n");
                 System.out.print("¿Quieres que Gohan siga aumentando su Ki? (S/N): \n");
                 respuestaUsuario = sc.next();
+                // Si el usuario responde "s" o "S", se aumenta el Ki de Gohan en 200 puntos
                 ki += respuestaUsuario.equalsIgnoreCase("s") ? 200 : 0;
             } while (respuestaUsuario.equalsIgnoreCase("S") && ki < 9500);
 
