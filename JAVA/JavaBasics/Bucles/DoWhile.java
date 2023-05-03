@@ -1,4 +1,4 @@
-//Version 1.0 ->  @author DevMPoveaCL = Ayuda a Gohan vs Cell con un ciclo DoWhile
+//Version 1.0 ->  @author DevMPoveaCL = Ayuda a Gohan vs Cell con un ciclo DoWhile.
 
 package Bucles;
 
