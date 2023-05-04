@@ -16,7 +16,7 @@ public class Higiene extends Producto {
 
     @Override
     public boolean esCompatible(IProducto p) {
-        return false;
+        return !Categoria.ALIMENTACION.equals(p.getCategoria());
     }
 
 }

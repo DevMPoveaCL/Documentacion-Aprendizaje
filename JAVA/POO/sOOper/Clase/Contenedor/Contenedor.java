@@ -13,9 +13,10 @@ public abstract class Contenedor implements IContenedor {
     private int resistencia;
     private Set<IProducto> productos;
 
-    public Contenedor(String referencia, int alto) {
+    public Contenedor(String referencia, int alto, int resistencia) {
         this.referencia = referencia;
         this.alto = alto;
+        this.resistencia = resistencia;
         productos = new HashSet<IProducto>();
     }
 
@@ -31,7 +32,15 @@ public abstract class Contenedor implements IContenedor {
 
     @Override
     public int volumenDisponible() {
-        return 0;
+        return getVolumen() - volumenOcupado();
+    }
+
+    private int volumenOcupado() {
+        int res = 0;
+        for (IProducto p : productos) {
+            res += p.getVolumen();
+        }
+        return res;
     }
 
     @Override
@@ -65,7 +74,7 @@ public abstract class Contenedor implements IContenedor {
 
     @Override
     public boolean resiste(IProducto producto) {
-        return false;
+        return resistencia > producto.getPeso();
     }
 
     @Override

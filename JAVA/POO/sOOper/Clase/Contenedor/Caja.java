@@ -1,6 +1,7 @@
 package POO.sOOper.Clase.Contenedor;
 
 import POO.sOOper.Enum.TipoContenedor;
+import POO.sOOper.Interfaz.IProducto;
 
 //Clase caja hereda todas las características de Contenedor y las extiende.
 public class Caja extends Contenedor {
@@ -11,7 +12,7 @@ public class Caja extends Contenedor {
     // this."atributo" para los atributos de la clase e ""=" para los argumentos
     // recibidos.
     public Caja(String referencia, int alto, int ancho, int largo) {
-        super(referencia, alto);
+        super(referencia, alto, 0);
         this.ancho = ancho;
         this.largo = largo;
     }
@@ -24,6 +25,11 @@ public class Caja extends Contenedor {
     @Override
     public TipoContenedor getTipo() {
         return TipoContenedor.CAJA;
+    }
+
+    @Override
+    public boolean resiste(IProducto producto) {
+        return true;
     }
 
 }
