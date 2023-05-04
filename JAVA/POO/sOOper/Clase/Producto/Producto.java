@@ -1,4 +1,4 @@
-package POO.sOOper.Clase;
+package POO.sOOper.Clase.Producto;
 
 import POO.sOOper.Interfaz.IContenedor;
 import POO.sOOper.Interfaz.IProducto;
@@ -33,7 +33,13 @@ public abstract class Producto implements IProducto {
     @Override
     public boolean tengoEspacio(IContenedor contenedor) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tengoEspacio'");
+        return false;
+    }
+
+    @Override
+    public void meter(IContenedor contenedor) {
+        // TODO Auto-generated method stub
+
     }
 
 }

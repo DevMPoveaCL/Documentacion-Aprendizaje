@@ -1,4 +1,6 @@
-package POO.sOOper.Clase;
+package POO.sOOper.Clase.Contenedor;
+
+import POO.sOOper.Enum.TipoContenedor;
 
 public class Bolsa extends Contenedor {
 
@@ -10,8 +12,8 @@ public class Bolsa extends Contenedor {
     }
 
     @Override
-    public String getTipo() {
-        return "bolsa";
+    public TipoContenedor getTipo() {
+        return TipoContenedor.BOLSA;
     }
 
     @Override

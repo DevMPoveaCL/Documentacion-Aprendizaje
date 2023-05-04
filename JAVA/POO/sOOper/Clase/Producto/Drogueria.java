@@ -1,5 +1,6 @@
-package POO.sOOper.Clase;
+package POO.sOOper.Clase.Producto;
 
+import POO.sOOper.Enum.Categoria;
 import POO.sOOper.Interfaz.IProducto;
 
 public class Drogueria extends Producto {
@@ -9,14 +10,13 @@ public class Drogueria extends Producto {
     }
 
     @Override
-    public String getCategoria() {
-        return "Droguería";
+    public Categoria getCategoria() {
+        return Categoria.DROGERIA;
     }
 
     @Override
     public boolean esCompatible(IProducto p) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'esCompatible'");
+        return false;
     }
 
 }

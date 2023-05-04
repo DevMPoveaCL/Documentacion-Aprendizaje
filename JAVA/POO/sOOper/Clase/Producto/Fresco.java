@@ -1,4 +1,4 @@
-package POO.sOOper.Clase;
+package POO.sOOper.Clase.Producto;
 
 public class Fresco extends Alimentacion {
 
