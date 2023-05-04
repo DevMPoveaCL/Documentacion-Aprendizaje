@@ -1,5 +1,7 @@
 package POO.sOOper.Clase.Principal;
 
+import java.time.LocalDate;
+
 import POO.sOOper.Clase.Contenedor.Bolsa;
 import POO.sOOper.Clase.Contenedor.Caja;
 import POO.sOOper.Clase.Producto.Congelado;
@@ -35,10 +37,10 @@ public class Supermercado {
         }
         miPedido.addContenedor(new Caja("C333", 50, 60, 75)); // caja grande
 
-        IProducto manzana = new Fresco("MNZ", 1000, 1500);
+        IProducto manzana = new Fresco("MNZ", 1000, 1500, LocalDate.now().plusDays(7));
         IProducto helado = new Congelado("HLD", 800, 1000);
         IProducto confort = new Higiene("CFT", 500, 2500);
-        IProducto pera = new Fresco("PER", 800, 1200);
+        IProducto pera = new Fresco("PER", 800, 1200, LocalDate.now().plusDays(5));
 
         IContenedor contManzana = miPedido.addProducto(manzana);
         IContenedor contHelado = miPedido.addProducto(helado);
@@ -55,7 +57,7 @@ public class Supermercado {
         miPedido.addProducto(new Drogueria("DET", 2000, 1600)); // detergente lavadora
 
         for (int i = 0; i < 24; i++) {
-            miPedido.addProducto(new Fresco("YOG" + i, 250, 300)); // yogur
+            miPedido.addProducto(new Fresco("YOG" + i, 250, 300, LocalDate.now().plusDays(i))); // yogur
         }
 
         System.out.println("\nMi pedido con productos: " + miPedido);
