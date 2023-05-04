@@ -23,8 +23,15 @@ public class Pedido implements IPedido {
 
     @Override
     public Set<IProducto> getProducto() {
-        // TODO Auto-generated method stub
-        return null;
+        Set<IProducto> productos = null;
+        for (IContenedor c : contenedores) {
+            if (productos == null) {
+                productos = c.getProducto();
+            } else {
+                productos.addAll(c.getProducto());
+            }
+        }
+        return productos;
     }
 
     @Override
