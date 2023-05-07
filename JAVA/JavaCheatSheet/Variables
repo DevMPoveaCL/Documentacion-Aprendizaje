@@ -1,4 +1,4 @@
-    //Version 1.0 ->  @author DevMPoveaCL = Tipos de variables en Java y ejemplos
+    //Version 1.0 ->  @author DevMPoveaCL = Tipos de variables en Java y ejemplos.
 
     1) Variables primitivas: tipos de datos básicos que representan valores simples como enteros, decimales, caracteres, booleanos, entre otros.
         byte: representa números enteros de 8 bits con signo, con un rango de -128 a 127.
@@ -34,12 +34,11 @@
         // Crear dos instancias de la clase Persona
         Persona persona1 = new Persona();
         Persona persona2 = new Persona();
-
         // Establecer los nombres de las dos personas
         persona1.setNombre("Juan");
         persona2.setNombre("Maria");
 
-        Explicación: la clase "Persona" tiene una variable de instancia llamada "nombre" que puede tener valores diferentes para cada instancia de la clase.
+        Explicación: "Persona" posee una variable de instancia llamada "nombre" que puede tener valores diferentes para cada instancia de la clase.
 
 
     4)Variables de clase: variables que pertenecen a una clase en su conjunto y no a instancias específicas de la clase.
@@ -89,4 +88,4 @@
         Persona.setNombre("Juan"); // llama al método estático "setNombre" de la clase "Persona" para establecer el valor de la variable de clase "nombre" a "Juan"
         System.out.println(Persona.getNombre()); // llama al método estático "getNombre" de la clase "Persona" para imprimir el valor de la variable de clase "nombre"
 
-        Explicación: la clase "Persona" tiene una variable estática llamada "nombre" que se utiliza para almacenar y acceder al nombre de la persona.
+        Explicación: "Persona" posee una variable estática llamada "nombre" que se utiliza para almacenar y acceder al nombre de la persona.

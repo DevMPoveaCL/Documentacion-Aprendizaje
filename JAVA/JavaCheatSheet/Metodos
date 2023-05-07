@@ -1,11 +1,10 @@
-//Version 1.0 -> @author DevMPoveaCL = Tipos de métodos en Java y ejemplos
+//Version 1.0 -> @author DevMPoveaCL = Tipos de métodos en Java y ejemplos.
 
 1.  Métodos de instancia: pertenecen a una instancia de una clase y pueden acceder a las variables de instancia de la misma. Se definen sin la palabra clave "static" y se invocan sobre una instancia de la clase.
         Método getter (instancia de acceso): se utiliza para obtener el valor de un campo de una clase. El nombre del método comienza con "get" seguido del nombre del campo en camelCase.
         Ejemplo:
         public class Persona {
         private String nombre;
-
             // Getter
             public String getNombre() {
                 return nombre;
@@ -60,7 +59,7 @@
                         el constructor se llama automáticamente cuando se crea un objeto de la clase utilizando el operador "new". Al llamar al constructor,
                         se reservará un espacio en memoria para el objeto y se inicializarán los atributos.
 
-        Método toString: Devuelve una representación en cadena de un objeto. Este método se utiliza a menudo para imprimir el objeto en la consola.
+        Método toString: devuelve una representación en cadena de un objeto. Se utiliza a menudo para imprimir el objeto en la consola.
         Ejemplo:
         public class Persona {
         private String nombre;

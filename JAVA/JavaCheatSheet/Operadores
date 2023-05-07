@@ -1,11 +1,10 @@
-//Version 1.0 ->  @author DevMPoveaCL = Tipos de operadores en Java y ejemplos
+//Version 1.0 ->  @author DevMPoveaCL = Tipos de operadores en Java y ejemplos.
 
-1) Operadores Aritméticos:  suma, resta, multiplicación, división y "módulo" (%) -> es el resto de la división
+1) Operadores Aritméticos:  suma, resta, multiplicación, división y "módulo" (%) -> resto de la división
 
 2) Operadores de asignación: asignar valores a las variables 
     asignación simple (=)
     operadores compuestos (+=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=).
-
     Ejemplos:
         int num = 5; // la variable num tiene un valor de 5
         num += 3; // es equivalente a num = num + 3, la variable num ahora tiene un valor de 8
@@ -61,7 +60,7 @@
     
     Importante: se utilizaron variables booleanas en los ejemplos, pero los operadores lógicos también se pueden utilizar con expresiones más complejas que devuelvan valores booleanos.
 
-5) Operadores de bits: utilizados para realizar operaciones a nivel de bits en los valores numéricos:
+5) Operadores de bits: se utilizan para realizar operaciones a nivel de bits en los valores numéricos:
      & (y bit a bit): compara los bits de dos números enteros y devuelve un resultado que tiene un 1 en los bits en los que ambos números tienen un 1. De lo contrario, devuelve un 0
      Ejemplo:
         int a = 0b1010; // 10 en binario
