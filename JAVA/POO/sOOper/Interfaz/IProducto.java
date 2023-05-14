@@ -3,6 +3,8 @@ package POO.sOOper.Interfaz;
 import POO.sOOper.Enum.Categoria;
 
 public interface IProducto {
+
+    // Métodos
     String getReferencia();
 
     int getPeso();

@@ -4,6 +4,7 @@ import java.util.Set;
 
 public interface IPedido {
 
+    // Métodos
     String getReferencia();
 
     Set<IProducto> getProducto();

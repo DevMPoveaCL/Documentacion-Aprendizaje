@@ -5,6 +5,8 @@ import java.util.Set;
 import POO.sOOper.Enum.TipoContenedor;
 
 public interface IContenedor {
+
+    // Métodos
     String getReferencia();
 
     int getVolumen();
