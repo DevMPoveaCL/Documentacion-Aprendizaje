@@ -11,8 +11,7 @@ public class Alimentacion extends Producto {
         super(referencia, peso, volumen);
     }
 
-    // Override del método "getCategoria()" de la clase base "Producto" para
-    // devolver la categoría "Alimentacion".
+    // Override del método "getCategoria()" de la clase base "Producto"
     @Override
     public Categoria getCategoria() {
         return Categoria.ALIMENTACION;
