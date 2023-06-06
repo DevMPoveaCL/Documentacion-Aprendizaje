@@ -3,7 +3,7 @@ public class Java127Hrs {
         String saludar = "Curso de Java completo(+127hrs), vamos a darle con todo!";
         System.out.println("saludar.toUpperCase() = " + saludar.toUpperCase());
 
-        int numero = 31;
+        int numero = 21;
         boolean valor = true;
         int numero2 = 5;
 
