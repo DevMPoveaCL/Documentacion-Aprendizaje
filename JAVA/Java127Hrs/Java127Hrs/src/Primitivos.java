@@ -74,5 +74,21 @@ public class Primitivos {
         //Tipo long, se agrega una L al final como sufijo del número
         var longVar = 345L;
         System.out.println("longVar = " + longVar);
+
+        //Tipo char, estándar unicode: permite nums del 1 al 9 o una letra / caracter especial
+        char caracter = '%';
+        System.out.println("\ncaracter = " + caracter); //%
+
+        /*Truco: en windows presiona la tecla windows y escribe "mapa de caracteres"
+        se mostrarán todos los caracteres del estándar junto con su código para copiar y pegar en nuestro cod java*/
+        char musicUnicode = '\u266B';
+        char musicDecimal = 9835;
+        System.out.println("musicUnicode = " + musicUnicode); //♫
+        System.out.println("musicDecimal = " + musicDecimal); //♫
+        System.out.println("musicUnicode = musicDecimal?: " + (musicUnicode == musicDecimal)); //true, comprueba igualdad
+        //backslash interesantes
+        // "\b" = retroceso, equivalente a un backspace o borrar un espacio
+        // "\t" = tabulador, equivalente a realizar una tabulacion con tab
+        // "\n" = nuevaLinea, salto de linea o enter
     }
 }
