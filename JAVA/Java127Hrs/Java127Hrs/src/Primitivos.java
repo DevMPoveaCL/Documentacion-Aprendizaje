@@ -18,7 +18,7 @@ public class Primitivos {
         System.out.println("Valor máximo de un short: " + Short.MAX_VALUE);
         System.out.println("Valor mínimo de un short: " + Short.MIN_VALUE);
 
-        //Tipo int: 2147483647(máx) y -2147483648(min)
+        //Tipo int: 2147483647(máx) y -2147483648(min).
         int numeroInt = 2147483647;
         System.out.println("\nnumeroInt = " + numeroInt);
         System.out.println("Tipo int corresponde en byte a: " + Integer.BYTES);
@@ -36,5 +36,13 @@ public class Primitivos {
 
         // Utilización de inferencia de tipos ("var") para una variable de tipo float
         var numeroVar = 9223372036854775808f;
+
+        //Tipo float, pueden escribirse con exponenciales o no, también con negativos
+        float realFloat = 2.21e3f; //2120f
+        System.out.println("\nrealFloat = " + realFloat);
+
+        //Tipo float con exponente negativo, puede escribirse de cualquiera de las 2 formas
+        float expNegativo = 0.00000000015f; //1.5e-10f
+        System.out.println("expNegativo = " + expNegativo);
     }
 }
