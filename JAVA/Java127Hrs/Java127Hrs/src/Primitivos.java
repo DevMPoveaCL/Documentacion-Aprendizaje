@@ -2,7 +2,7 @@
 public class Primitivos {
     public static void main(String[] args) {
 
-        //Tipo short: 127(máx) y -128(min)
+        //Tipo byte: 127(máx) y -128(min)
         byte numeroByte = 127;
         System.out.println("numeroByte = " + numeroByte);
         System.out.println("Tipo byte corresponde en byte a: " + Byte.BYTES);
@@ -41,6 +41,8 @@ public class Primitivos {
         //Tipo float con exponente negativo, puede escribirse de cualquiera de las 2 formas
         float expNegativo = 0.00000000015f; //1.5e-10f
         System.out.println("expNegativo = " + expNegativo);
+
+
 
         // var por defecto es int
         var intVar = 125;
