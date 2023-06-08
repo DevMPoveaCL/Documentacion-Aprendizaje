@@ -34,9 +34,6 @@ public class Primitivos {
         System.out.println("Valor máximo de un long: " + Long.MAX_VALUE);
         System.out.println("Valor mínimo de un long: " + Long.MIN_VALUE);
 
-        // Utilización de inferencia de tipos ("var") para una variable de tipo float
-        var numeroVar = 9223372036854775808f;
-
         //Tipo float, pueden escribirse con exponenciales o no, también con negativos
         float realFloat = 2.21e3f; //2120f
         System.out.println("\nrealFloat = " + realFloat);
@@ -44,5 +41,25 @@ public class Primitivos {
         //Tipo float con exponente negativo, puede escribirse de cualquiera de las 2 formas
         float expNegativo = 0.00000000015f; //1.5e-10f
         System.out.println("expNegativo = " + expNegativo);
+
+        // var por defecto es int
+        var intVar = 125;
+        System.out.println("\nintVar = " + intVar);
+
+        //se modifica dependiendo del dato ingresado ya sea con un punto "decimal" o el sufijo de la letra reservada
+        // var tipo float, "F" final
+        var floatVar = 9223372036854775808F;
+        System.out.println("floatVar = " + floatVar);
+
+        //var tipo double, basta con poner un "punto" que indique es decimal
+        var doubleVar = 3.14;
+        System.out.println("doubleVar = " + doubleVar);
+        // o caso contrario, agregar el sufijo "D" al número decimal
+        var doubleVarDos = 3.14D;
+        System.out.println("doubleVarDos = " + doubleVarDos);
+
+        //Tipo long, se agrega una L al final como sufijo del número
+        var longVar = 345L;
+        System.out.println("longVar = " + longVar);
     }
 }
