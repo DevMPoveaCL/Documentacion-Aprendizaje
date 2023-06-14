@@ -90,5 +90,22 @@ public class Primitivos {
         // "\b" = retroceso, equivalente a un backspace o borrar un espacio
         // "\t" = tabulador, equivalente a realizar una tabulacion con tab
         // "\n" = nuevaLinea, salto de linea o enter
+
+        // Tipo boolean: true o false
+        boolean datoLogico = true;
+        System.out.println("datoLogico = " + datoLogico);
+
+        double d = 98765.43e-3; // 98.76543
+        System.out.println("d = " + d);
+        
+        float f = 1.2345e2f; // 123.45
+        System.out.println("f = " + f);
+
+        datoLogico = d > f; //false
+        System.out.println("datoLogico = " + datoLogico);
+
+        boolean esIgual = (3-2 == 1); //true
+        System.out.println("esIgual = " + esIgual);
+
     }
 }
