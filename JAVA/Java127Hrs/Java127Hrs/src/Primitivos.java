@@ -88,8 +88,8 @@ public class Primitivos {
         System.out.println("musicUnicode = musicDecimal?: " + (musicUnicode == musicDecimal)); //true, comprueba igualdad
         //backslash interesantes
         // "\b" = retroceso, equivalente a un backspace o borrar un espacio
-        // "\t" = tabulador, equivalente a realizar una tabulacion con tab
-        // "\n" = nuevaLinea, salto de linea o enter
+        // "\t" = tabulador, equivalente a realizar una tabulación con tab
+        // "\n" = nuevaLinea, salto de línea o enter
 
         // Tipo boolean: true o false
         boolean datoLogico = true;
