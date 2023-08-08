@@ -1,4 +1,4 @@
-//Version 1.0 ->  @author DevMPoveaCL = ingreso de número entero con ventada de dialogo.
+//Version 1.0 ->  @author DevMPoveaCL = ingreso de número entero con ventada de dialogo
 
 import javax.swing.*;
 
