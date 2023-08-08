@@ -1,4 +1,4 @@
-//Version 1.0 ->  @author DevMPoveaCL = ingreso de número entero con ventada de dialogo
+//Version 1.0 -> @author DevMPoveaCL = ingreso de número entero con ventada de dialogo
 
 import javax.swing.*;
 
@@ -15,7 +15,7 @@ public class VentanaDeDialogo {
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null,"Error debe ingresar un número entero");
         main(args); //recursividad del main (lo repite)
-        System.exit(0); //termina el proceso con status 0 ("status 0" = sin problemas)
+        System.exit(0); //termina el proceso con status 0 ("status 0" significa que no hubo problemas)
         }
 
         System.out.println("numeroDecimal = " + numeroDecimal);
