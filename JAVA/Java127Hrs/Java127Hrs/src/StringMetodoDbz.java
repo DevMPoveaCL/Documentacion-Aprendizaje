@@ -1,5 +1,5 @@
 /*
-    La tarea consiste en crear una clase llamada ProgramaManejoDeNombres de la siguiente manera:
+    La tarea consiste en crear una clase llamada StringMetodoDbz de la siguiente manera:
     Se requiere desarrollar un programa que reciba los nombres de 3 personajes de DBZ como argumentos de línea de comandos.
     Se pide por cada nombre del personaje una nueva variable del tipo String al tomar el segundo carácter pero convertido en mayúscula y se le concatena un punto y los dos últimos caracteres de la persona. Por ejemplo para Andres debe quedar como N.es
     Debe imprimir como resultado los tres nuevos nombres separado con guion bajo (como una única variable).
