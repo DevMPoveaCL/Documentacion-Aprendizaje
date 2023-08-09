@@ -11,7 +11,7 @@ Por ejemplo, el resultado podría ser algo así:
 La factura producto de oficina tiene un total bruto de 134.78, con un impuesto de 25.6082
 y el monto después de impuesto es de 160.3882
 */
-
+//Version 1.0 ->  @author DevMPoveaCL = Ejercicio relacionado al detalle de una factura simple.
 
 import java.util.Scanner;
 
