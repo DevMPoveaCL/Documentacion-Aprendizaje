@@ -31,6 +31,7 @@ public class EjemploExcepciones {
             System.out.println("Ejemplo: finalizar una conexión cuando ocurre el error, opcional");
         }
         System.out.println("Continuamos con el flujo de nuestra aplicación!" );
+
     }
 
 
