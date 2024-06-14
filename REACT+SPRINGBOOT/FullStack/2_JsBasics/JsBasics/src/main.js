@@ -1,16 +1,14 @@
 
 
-const products = ['mesa', 'silla', 'mouse', 'teclado'];
-products.push('pantalla lcd', 'celular');
+const user = {
+    username: 'Andrés',
+    email: 'correo@google.com',
+    age: 20,
+    ranking:9,
+};
 
-const fruits = ['pera', 'manzana', 'sandia', 'frutilla'];
+// Desestructa el objeto y sus atributos locales en el global.
+const{username, ranking, age} = user;
 
-// Nombre de arreglos en plural y objetos en singular.
-const orders = [ ...products, ...fruits, 'lechuga', 'papa', 'uva'];
-
-
-
-
-console.log (products);
-console.log (orders);
-
+console.log(`${username} tiene ${age} de edad`);
+console.log(ranking);
