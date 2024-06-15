@@ -4,7 +4,7 @@ const invoice = {
     date: new Date(),
     client: {
         id: 2,
-        firstname: 'John Doe',
+        firstname: 'John',
         lastname: 'Doe',
         age: 20,
     },
