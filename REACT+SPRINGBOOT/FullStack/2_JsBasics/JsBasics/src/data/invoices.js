@@ -103,9 +103,8 @@ const invoices = [
     return invoices.find(i => i.id === 3 );
  }  */
 
-const invoiceById = () => {
-    return invoices.find(i => i.id === 3 );
+const invoiceById = (id) => {
+    return invoices.find(i => i.id === id );
 } 
-
 
 
