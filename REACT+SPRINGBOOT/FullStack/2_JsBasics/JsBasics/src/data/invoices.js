@@ -1,12 +1,19 @@
+//funciones a exportar
+export {
+    invoices as default,
+    invoiceById,
+    luca
+}
+
 // Definición del objeto "luca" que representa un producto con propiedades de nombre, precio y cantidad.
-export const luca = {
+const luca = {
     product: 'luca',
     price: 1000,
     quantity: 1,
 };
 
 // Creación de un array "invoices" que contiene múltiples objetos, cada uno representando una factura con detalles como id, nombre, fecha, cliente y artículos.
-export const invoices = [
+const invoices = [
     {
         id: 1,
         name: 'Compras de oficina',
@@ -92,6 +99,13 @@ export const invoices = [
 /* export const invoiceById = () => {
    return invoices.find(i => i.id === 3 );
 }  */
-   export default () => {
+ /*   export default () => {
     return invoices.find(i => i.id === 3 );
- } 
+ }  */
+
+const invoiceById = () => {
+    return invoices.find(i => i.id === 3 );
+} 
+
+
+

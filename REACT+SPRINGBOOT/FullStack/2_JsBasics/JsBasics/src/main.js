@@ -1,6 +1,6 @@
 
-//importación función por defecto e invoices y luca
-import invoiceById, {invoices, luca} from './data/invoices';
+//importación función por defecto y otras (luca y invoiceById)
+import invoices, {invoiceById, luca} from './data/invoices';
 
 
 //Creación de nuevas instancias (arrays) sin afectar al original, forEach afecta al original.
