@@ -13,9 +13,6 @@ const promise = new Promise((resolve, reject) => {
     }, 2500);
 }); 
 
-promise.then((json) => {
-    console.log(json);
-    console.log ('realizada con éxito alguna tarea con demora');
-}).catch((error) => {
-    console.error (error);
-});
+promise
+    .then(console.log)
+    .catch(console.error);
