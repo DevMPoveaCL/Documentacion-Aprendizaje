@@ -1,9 +1,3 @@
-//funciones a exportar
-export {
-    invoices as default,
-    invoiceById,
-    luca
-}
 
 // Definición del objeto "luca" que representa un producto con propiedades de nombre, precio y cantidad.
 const luca = {
@@ -107,4 +101,24 @@ const invoiceById = (id) => {
     return invoices.find(i => i.id === id );
 } 
 
+const findInvoiceById = (id) => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const result = invoiceById(id);
+            if (result){
+                resolve(result);
+            }else{
+                reject ('error: no existe la factura por el id!')
+            }
+        }, 2500);
+    }); 
+    return promise;
+}
 
+//funciones a exportar
+export {
+    invoices as default,
+    invoiceById,
+    luca,
+    findInvoiceById
+}
