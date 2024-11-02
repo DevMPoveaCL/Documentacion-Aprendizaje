@@ -5,6 +5,6 @@ import { HelloWorld } from './components/HelloWorld'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HelloWorld/>
+    <HelloWorld user= {'Goku'}/>
   </StrictMode>,
 )
