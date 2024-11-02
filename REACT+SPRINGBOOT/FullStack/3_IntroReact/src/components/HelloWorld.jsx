@@ -1,4 +1,4 @@
-export function HelloWorld ({user}) {
+export const HelloWorld = ({user}) => {
 
     //const name = 'Goku';
 
