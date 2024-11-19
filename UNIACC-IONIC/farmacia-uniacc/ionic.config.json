@@ -1,0 +1,7 @@
+{
+  "name": "farmacia-uniacc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
