@@ -19,8 +19,10 @@ El objetivo principal es:
 El repositorio está estructurado de manera clara y fácil de navegar. Cada sección se centra en un tema o área de aprendizaje específica.
 
 ### **1. Lenguajes de Programación**
-- **JavaScript**: Conceptos básicos, trucos avanzados y ejemplos de código.
-- **Python**: Notas sobre sintaxis, librerías populares y proyectos pequeños.
+- **Java**: Proyectos robustos y escalables, ideal para aplicaciones empresariales y backend.
+- **JavaScript**: Desarrollo dinámico, principalmente enfocado en aplicaciones web y herramientas interactivas.
+- **TypeScript**: Extensión tipada de JavaScript, utilizada para mantener el código más organizado y seguro.
+- **HTML, SCSS y CSS**: Creación de interfaces visuales atractivas y responsivas.
   
 ### **2. Frameworks y Herramientas**
 - **Ionic**: Documentación sobre el uso de este framework para desarrollo móvil híbrido.
@@ -60,7 +62,7 @@ Este repositorio se actualiza de manera continua conforme avanza el aprendizaje.
 
 ## 📜 Licencia
 
-Este repositorio está disponible bajo la licencia [MIT](LICENSE). Puedes usar el contenido para fines educativos o personales, pero se agradece el reconocimiento.
+Este repositorio está disponible de forma pública. Puedes usar el contenido para fines educativos o personales, pero se agradece el reconocimiento.
 
 ---
 
