@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { InvoiceApp } from './invoiceApp'
+import { InvoiceApp } from './InvoiceApp'
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <InvoiceApp />
-  </StrictMode>,
+  // <StrictMode>
+  <InvoiceApp />
+  // </StrictMode>,
 )
